@@ -27,13 +27,11 @@ disqusShortname = "DaX"
     hideCredits = true
     hideCopyright = true
 
-    # Git Commit in Footer, uncomment the line below to enable it.
-    #commit = "https://github.com/luizdepra/hugo-coder/tree/"
-
     rtl = false
 
     # Custom CSS
     custom_css = ["/css/main.css"]
+    custom_js = ["/js/main.js"]
 
 [[params.social]]
     name = "Github"
@@ -65,7 +63,7 @@ disqusShortname = "DaX"
     weight = 2
     url = "/about/"
 [[menu.main]]
-    name = "Projects"
+    name = "Portfolio"
     weight = 3
     url = "/projects/"
 [[menu.main]]
@@ -130,10 +128,10 @@ disqusShortname = "DaX"
             url = "/rs/posts/"
 
             [[languages.rs.menu.main]]
-            name = "Projekti"
+            name = "Portfolio"
             weight = 3
-            url = "/projekti/"
+            url = "/rs/projekti/"
             [[languages.rs.menu.main]]
             name = "Kontakt"
             weight = 5
-            url = "/kontakt/"
+            url = "/rs/kontakt/"
