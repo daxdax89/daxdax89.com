@@ -98,7 +98,7 @@ disqusShortname = "DaX"
         [[languages.en.menu.main]]
         name = "Projects"
         weight = 3
-        url = "/projects/"
+        url = "portfolio.html/"
         [[languages.en.menu.main]]
         name = "Contact me"
         weight = 5
